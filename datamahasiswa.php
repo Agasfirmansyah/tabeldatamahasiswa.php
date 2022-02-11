@@ -10,7 +10,7 @@
 	<br/>
 	<br/>
 	<table border="1">
-		<tr>
+	        <tr>
 			<th>NO</th>
 			<th>NIM</th>
 			<th>Nama</th>
@@ -29,8 +29,8 @@
 		<td><?php echo $d['nama']; ?></td>
 		<td><?php echo $d['jenis kelamin']; ?></td>
                 <td><?php echo$d['tempat, tgl lahir</td>
-			</tr>
-			<?php 
+	        </tr>
+	        <?php 
 		}
 		?>
 	        </table>
