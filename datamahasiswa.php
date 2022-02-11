@@ -23,16 +23,16 @@
 		$data = mysqli_query($koneksi,"select * from mahasiswa");
 		while($d = mysqli_fetch_array($data)){
 			?>
-	<tr>
+	        <tr>
 		<td><?php echo $no++; ?></td>
 		<td><?php echo $d['nim']; ?></td>
 		<td><?php echo $d['nama']; ?></td>
 		<td><?php echo $d['jenis kelamin']; ?></td>
-     <td><?php echo$d['tempat, tgl lahir</td>
+                <td><?php echo$d['tempat, tgl lahir</td>
 			</tr>
 			<?php 
 		}
 		?>
-	</table>
+	        </table>
 </body>
 </html>
