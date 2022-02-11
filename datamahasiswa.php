@@ -28,7 +28,7 @@
 		<td><?php echo $d['nim']; ?></td>
 		<td><?php echo $d['nama']; ?></td>
 		<td><?php echo $d['jenis kelamin']; ?></td>
-                <td><?php echo$d['tempat, tgl lahir']; ?></td>
+                <td><?php echo $d['tempat, tgl lahir']; ?></td>
 	        </tr>
 	        <?php 
 		}
